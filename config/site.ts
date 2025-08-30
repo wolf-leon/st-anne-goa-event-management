@@ -1,20 +1,24 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "St Ann Event Management Goa",
+  description: "St Ann Event Management in Goa specializes in weddings, corporate events, and celebrations. From beach weddings to themed parties, we bring your vision to life with flawless planning, décor, and hospitality.",
   navItems: [
     {
       label: "Home",
       href: "/",
     },
     {
-      label: "Docs",
+      label: "Services",
       href: "/docs",
     },
     {
-      label: "Pricing",
+      label: "Contact",
       href: "/pricing",
+    },
+    {
+      label: "Events",
+      href: "/events",
     },
     {
       label: "Blog",
@@ -27,37 +31,30 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Services",
+      href: "/services",
     },
     {
-      label: "Projects",
-      href: "/projects",
+      label: "Contact",
+      href: "/contact",
     },
     {
-      label: "Team",
-      href: "/team",
+      label: "Events",
+      href: "/events",
     },
     {
-      label: "Calendar",
-      href: "/calendar",
+      label: "Blog",
+      href: "/blog",
     },
     {
-      label: "Settings",
-      href: "/settings",
+      label: "About",
+      href: "/about",
     },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+
   ],
   links: {
     github: "https://github.com/heroui-inc/heroui",
